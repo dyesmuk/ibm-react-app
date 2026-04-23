@@ -7,3 +7,24 @@ React JS Notes
 	Props 
 
 	hook == method == function 
+
+	.ts or .tsx ?
+	if the code in a file returns JSX, 
+	then that file should be .tsx, 
+	else that file should be .ts. 
+
+	folders in src folder - 
+	components - 
+	pages - 
+	services - 
+	models - 
+	utils - 
+	config - 
+
+
+
+
+
+
+
+

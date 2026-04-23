@@ -1,12 +1,9 @@
 const Child = (props: any) => {
-
     const childData = "Monu";
-
     const sendData = () => {
         console.log("child function called.");
         props.sendDataToParent(childData);
     };
-
     return (
         <>
             <h2>Child Component</h2>

@@ -1,0 +1,9 @@
+
+React JS Notes 
+
+	Component 
+	JSX 
+	State 
+	Props 
+
+	hook == method == function 

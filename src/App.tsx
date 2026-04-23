@@ -9,6 +9,7 @@ const App = () => {
       <h1>IBM React App</h1>
       <hr />
       <>
+        <h2>App Component</h2>
         <Parent />
       </>
     </ div>
@@ -351,3 +352,4 @@ export default App;
 // }
 
 // export default App
+

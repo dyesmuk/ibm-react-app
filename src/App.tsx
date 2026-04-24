@@ -7,8 +7,6 @@ import Navbar from "./pages/Navbar";
 const App = () => {
   return (
     <div>
-      <h1>IBM React App</h1>
-      <hr />
       <>
         <Navbar />
         <AppRoutes />

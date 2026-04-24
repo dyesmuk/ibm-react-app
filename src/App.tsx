@@ -1,21 +1,73 @@
-// data sharing bw parent and child using props 
+// App.tsx
 
-import Parent from "./Parent";
+// // using routing 
+import AppRoutes from "./AppRoutes";
+import Navbar from "./pages/Navbar";
 
 const App = () => {
-
   return (
     <div>
       <h1>IBM React App</h1>
       <hr />
       <>
-        <h2>App Component</h2>
-        <Parent />
+        <Navbar />
+        <AppRoutes />
       </>
     </ div>
   )
 }
 export default App;
+
+
+// // // data sharing bw components using context 
+// // =========================================== 
+
+// // // // App.tsx
+// import { DataContext } from "./DataContext";
+// import CompA from "./CompA";
+// import CompB from "./CompB";
+// import { useState } from "react";
+// const App = () => {
+
+//   const [message, setMessage] = useState("Sonu");
+
+//   return (
+//     <div>
+//       <h1>IBM React App</h1>
+//       <hr />
+//       <>
+//         <h2>App Component</h2>
+//         <p>App Component: {message}</p>
+//         <DataContext.Provider value={{ message, setMessage }}>
+//           <CompA />
+//           <CompB />
+//         </DataContext.Provider>
+//       </>
+//     </ div>
+//   )
+// }
+// export default App;
+
+
+
+// // data sharing bw parent and child using props 
+// // ============================================
+// import Parent from "./Parent";
+
+// const App = () => {
+
+//   return (
+//     <div>
+//       <h1>IBM React App</h1>
+//       <hr />
+//       <>
+//         <h2>App Component</h2>
+//         <Parent />
+//       </>
+//     </ div>
+//   )
+// }
+// export default App;
 
 
 
@@ -352,4 +404,5 @@ export default App;
 // }
 
 // export default App
+
 

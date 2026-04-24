@@ -28,3 +28,42 @@ React JS Notes
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Login method:
+Email + + OTP?
+2FA / OTP:
+Are you okay with manual OTP entry during automation?
+Yes. 
+Environment:
+OS: Windows 
+Python version (approx)?
+Output:
+save to downloads 
+Naming format (e.g., date_tripid.pdf)?
+Date range:
+Example: 2026-13-04 to 2025-22-04 
+The script should just save the pdf files by going to each trip page. 
+No specific config is needed for this. 
+
+
+
+
+
+
+
+
+
+
